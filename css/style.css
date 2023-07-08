@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Opan sans', sans-serif;
+}
+header{
+    padding: 50px 0;
+    background-color: #FFF8F3;
+    background-image: url(/img/header_bg.png);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+h2 span{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: black;
+}
+ul li a button{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+}
