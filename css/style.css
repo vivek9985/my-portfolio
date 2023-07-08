@@ -19,7 +19,7 @@ body{
 /* header style start */
 header{
     background-color: #FFF8F3;
-    background-image: url(/img/header_bg.png);
+    background-image: url(https://images.pexels.com/photos/4563785/pexels-photo-4563785.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -76,6 +76,7 @@ ul li a{
 }
 .hero-personal-info button{
     margin-top: 15px;
+    margin-right: 5px;
 }
 .hero-personal-info i{
     margin-right: 5px;
