@@ -1,20 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: 'Opan sans', sans-serif;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+}
+/* header style start */
 header{
-    padding: 50px 0;
     background-color: #FFF8F3;
     background-image: url(/img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+    padding: 50px 0;
 }
 h2{
     font-size: 45px;
@@ -34,14 +48,44 @@ ul li a{
     text-decoration: none;
     padding: 15px 20px;
     font-size: 16px;
-    color: black;
+    color: #181818;
 }
-ul li a button{
-    font-size: 18px;
+/* end */
+
+/* hero style start  */
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 100px 0 100px;
+}
+.hero-personal-info h3{
+    color: #474747;
+    font-size: 45px;
+}
+.hero-personal-info h1{
+    font-size: 85px;
     font-weight: 700;
-    background-color: #FD6E0A;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 35px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #000000;
 }
+.hero-personal-info p{
+    color: #181818;
+    line-height: 23px;
+}
+.hero-personal-info button{
+    margin-top: 15px;
+}
+.hero-personal-info i{
+    margin-right: 5px;
+}
+.hero-profile{
+    margin-right: -50px;
+}
+.hero-profile img{
+    width: 500px;
+    margin-bottom: -5px;
+    margin-right: -70px;
+}
+/* end */
