@@ -5,7 +5,7 @@
 }
 body{
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
@@ -16,6 +16,7 @@ body{
     border: none;
     border-radius: 5px;
     padding: 15px 35px;
+    cursor: pointer;
 }
 .section-title{
     font-size: 35px;
@@ -30,7 +31,8 @@ body{
 /* header style start */
 header{
     background-color: #FFF8F3;
-    background-image: url(/img/header-background.png);
+    /* background-image: url(/img/header-background.png); */
+    background-image: url(https://raw.githubusercontent.com/vivek9985/my-portfolio/main/img/header-background.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     position: relative;
@@ -157,5 +159,6 @@ ul li a{
 }
 .what-i-do-skills-items .all-items p{
     color: #757575;
+}    
 /* end */
 
