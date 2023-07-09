@@ -21,6 +21,7 @@ body{
 .section-title{
     font-size: 35px;
     color: #181818;
+    font-weight: 700;
     text-align: center;
 }
 .description{
@@ -160,5 +161,57 @@ ul li a{
 .what-i-do-skills-items .all-items p{
     color: #757575;
 }    
+/* end */
+
+/* resume section style  */
+.resume-section{
+    width: 90%;
+    margin: 130px auto;
+}
+.resume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 20px;
+}
+.resume-column{
+    padding: 20px;
+}
+.resume-column h3{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.resume-column h4{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-column h5{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.resume-column p{
+    color: #757575;
+}
+.resume-column hr{
+    width: 90%;
+    margin: 30px auto;
+}
+.download-cv-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-section button{
+    margin-top: 40px;
+}
+.resume-section button i{
+    margin-right: 5px;
+}
 /* end */
 
