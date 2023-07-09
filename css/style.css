@@ -5,7 +5,7 @@
 }
 body{
     width: 100%;
-    background-color: #f6f6f6;
+    background-color: #f8f8f8;
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
@@ -117,7 +117,7 @@ ul li a{
     width: 65%;
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #faf1ea;
     margin: 130px auto;
     text-align: center;
 }
@@ -150,7 +150,7 @@ ul li a{
     display: flex;
 }
 .what-i-do-skills-items .all-items{
-    padding: 30px;
+    padding: 40px 30px;
     margin: 0 10px;
     border-radius: 5px;
     background-color: white;
