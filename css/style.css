@@ -16,6 +16,16 @@ body{
     border-radius: 5px;
     padding: 15px 35px;
 }
+.section-title{
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+.description{
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+}
 /* header style start */
 header{
     background-color: #FFF8F3;
@@ -97,3 +107,44 @@ ul li a{
     left: 5px;
 }
 /* end */
+
+/* about me section style */
+.about-me{
+    width: 65%;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px auto;
+    text-align: center;
+}
+.about-desc{
+    font-size: 18px;
+    margin: 35px 0;
+}
+.about-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-info-container h4{
+    margin-bottom: 20px;
+}
+/* end */
+
+
+/* what I do section style */
+.what-i-do-section{
+    width: 85%;
+    margin: 0 auto;
+    background: #dba6a6;
+}
+.what-i-do-desc{
+    width: 72%;
+    margin: 50px auto;
+    font-size: 18px;
+}
+.what-i-do-skills-items{
+    display: flex;
+}
+/* end */
+
