@@ -5,6 +5,7 @@
 }
 body{
     width: 100%;
+    background-color: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
@@ -29,7 +30,7 @@ body{
 /* header style start */
 header{
     background-color: #FFF8F3;
-    background-image: url(/img/header_bg.png);
+    background-image: url(/img/header-background.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     position: relative;
@@ -136,7 +137,6 @@ ul li a{
 .what-i-do-section{
     width: 85%;
     margin: 0 auto;
-    background: #dba6a6;
 }
 .what-i-do-desc{
     width: 72%;
@@ -146,5 +146,16 @@ ul li a{
 .what-i-do-skills-items{
     display: flex;
 }
+.what-i-do-skills-items .all-items{
+    padding: 30px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.what-i-do-skills-items .all-items h3{
+    margin: 20px 0;
+}
+.what-i-do-skills-items .all-items p{
+    color: #757575;
 /* end */
 
